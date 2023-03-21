@@ -18,7 +18,7 @@ public class ExerciseLunch {
         System.out.println(MAX_PRICE);
     }
 
-    private void printLunch() {
+    public void printLunch() {
         System.out.println("Lunch{" +
                 "price=" + price +
                 ", nameOfDayEaten='" + nameOfDayEaten + '\'' +
@@ -26,7 +26,7 @@ public class ExerciseLunch {
                 '}');
     }
 
-    private void setPrice(double price) {
+    public void setPrice(double price) {
         if (price > MAX_PRICE) {
             System.out.println("Cannot set greater than max price");
         } else {
@@ -39,7 +39,7 @@ public class ExerciseLunch {
         return this.price;
     }
 
-    private int getNumberOfTimesWeHaveGotPrice() {
+    public int getNumberOfTimesWeHaveGotPrice() {
         return this.numberOfTimesWeHaveGotPrice;
     }
 
@@ -47,15 +47,15 @@ public class ExerciseLunch {
         return nameOfDayEaten;
     }
 
-    private int getLunchWeightInGrams() {
+    public int getLunchWeightInGrams() {
         return lunchWeightInGrams;
     }
 
-    private void setPrice(Double price) {
+    public void setPrice(Double price) {
         this.price = price;
     }
 
-    private void setNameOfDayEaten(String nameOfDayEaten) {
+    public void setNameOfDayEaten(String nameOfDayEaten) {
         this.nameOfDayEaten = nameOfDayEaten;
     }
 
@@ -63,7 +63,7 @@ public class ExerciseLunch {
         this.lunchWeightInGrams = lunchWeightInGrams;
     }
 
-    private void setNumberOfTimesWeHaveGotPrice(int numberOfTimesWeHaveGotPrice) {
+    public void setNumberOfTimesWeHaveGotPrice(int numberOfTimesWeHaveGotPrice) {
         this.numberOfTimesWeHaveGotPrice = numberOfTimesWeHaveGotPrice;
     }
 }
