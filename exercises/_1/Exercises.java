@@ -35,7 +35,7 @@ public class Exercises {
         // ciclo per iterare e assegnare gli anni alla persona;
         for (int i = 0; i < studentNames.size(); i++) {
             String name = studentNames.get(i);
-            int age = studentAges.get(i);
+            Integer age = studentAges.get(i);
             Student student = createNewStudent(name, age);
             System.out.println(student.getName() + " " + student.getAge() + " anni.");
         }
