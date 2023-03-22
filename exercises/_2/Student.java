@@ -8,10 +8,12 @@ public class Student {
 
     private int age;
 
-    // Tutto i metodi sono stati generati automaticamente;
+    // Tutto i metodi sono stati generati automaticamente, nessuno sviluppatore è stato sfruttato o ha riportato ferite;
     public Student(String name, int age) {
+        System.out.println("Constructing!");
         this.name = name;
         this.age = age;
+        System.out.println("Constructed!");
     }
 
     public Student(String name) {
