@@ -15,9 +15,9 @@ public class Exercises {
      */
     public static void exercise1() {
         System.out.println("Exercise 1:");
-        int luckyRolls = 0;
         int totalCount = 0;
         for (int i = 0; i < 100; i++) {
+            int luckyRolls = 0;
             while (rollD6() == 6) {
                 luckyRolls++;
             }
@@ -63,9 +63,10 @@ public class Exercises {
      * and can be accessed anywhere in this class, but nowhere else.
      * use SNAKE_CASE naming
      */
-        private static final int MAX_WEEK = 52;
-        private static final int MAX_DAY = 7;
-        private static final int MAX_HOUR = 24;
+    private static final int MAX_WEEK = 52;
+    private static final int MAX_DAY = 7;
+    private static final int MAX_HOUR = 24;
+
     public static void exercise4() {
         System.out.println("\nExercise 4:");
         for (int week = 0; week < MAX_WEEK; week++) {
